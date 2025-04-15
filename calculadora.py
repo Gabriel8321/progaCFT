@@ -3,7 +3,7 @@ print("1.- suma")
 print("2.- resta")
 print("3.- multiplicacion")
 print("4.- division")
-
+#tratamiento de calculadora
 opcion=input("ingresa tu opcion: ")
 num1=float(input("ingrese nuemro 1: "))
 num2=float(input("ingrese numero 2: "))
@@ -19,8 +19,8 @@ elif opcion =="4":
         else:
              print("la division es", num1/num2)
 else:
-     print("esa opcion no existe")             
-               
+     print("error")             
+              
 
                      
                
